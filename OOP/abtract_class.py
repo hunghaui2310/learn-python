@@ -19,6 +19,7 @@ class Vehicle(ABC):
 
 
 class Car(Vehicle):
+
     def go(self):
         print("You drive the car")
 
@@ -34,11 +35,11 @@ class Motorcycle(Vehicle):
         print("This Motocycle is stopped")
 
 
-vehicle = Vehicle()
+# vehicle = Vehicle()
 car = Car()
 motorcycle = Motorcycle()
 
-vehicle.go()
+# vehicle.go()
 car.go()
 motorcycle.go()
 motorcycle.stop()
